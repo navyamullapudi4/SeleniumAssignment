@@ -31,19 +31,23 @@ public class UserLoggedIn {
         username.sendKeys("lahariullaudi@gmail.com");
         password.sendKeys("bbc@BBC@");
         login.click();
-        String errorMsg = driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/div[2]/div[1]/form/div[1]/div[2]/p/span/span")).getText();
-        System.out.println(errorMsg);
+        String errormsg = driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/div[2]/div[1]/form/div[1]/div[2]/p/span/span")).getText();
+        Assert.assertTrue(errormsg.contains("we can’t find an account"));
+
     }
     @Test(priority = 100)
     public void validLogIn(){
         driver.get(url);
+        String beforelogintitle=driver.getTitle();
         WebElement username= driver.findElement(By.id("user-identifier-input"));
         WebElement password= driver.findElement(By.id("password-input"));
         WebElement login= driver.findElement(By.id("submit-button"));
         username.sendKeys("laharimullapudi@gmail.com");
         password.sendKeys("bbc@BBC@");
         login.click();
-        System.out.println(driver.getTitle());
+        String afterlogintitle=  driver.getTitle();
+        Assert.assertEquals(afterlogintitle, "BBC - Home");
+        Assert.assertNotEquals(beforelogintitle, afterlogintitle);
     }
 
     @AfterTest

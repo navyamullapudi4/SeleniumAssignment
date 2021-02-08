@@ -71,6 +71,7 @@ public class SearchFunctionality {
     }
     @AfterClass
     public void close(){
+
         driver.quit();
     }
 }

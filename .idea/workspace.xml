@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eedc19be-dfd4-4426-b4ec-becba3b42ad4" name="Default Changelist" comment="" />
+    <list default="true" id="eedc19be-dfd4-4426-b4ec-becba3b42ad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Amazonsearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Amazonsearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchFunctionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserLoggedIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserLoggedIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchFunctionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchFunctionality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UserLoggedIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserLoggedIn.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +18,14 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1oCKEPyLyPuNxeVS4PLEuGydii6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -21,7 +33,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../seleniumusingmaven" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -33,7 +46,41 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Amazonsearch">
+    <configuration name="Amazonsearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentSelenium1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Amazonsearch" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Amazonsearch.clearsearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentSelenium1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Amazonsearch" />
+      <option name="METHOD_NAME" value="clearsearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentSelenium1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchFunctionality" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserLoggedIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AssignmentSelenium1" />
       <option name="PACKAGE_NAME" value="" />
@@ -45,9 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserLoggedIn.validLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentSelenium1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserLoggedIn" />
+      <option name="METHOD_NAME" value="validLogIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Amazonsearch" />
+        <item itemvalue="TestNG.Amazonsearch.clearsearch" />
+        <item itemvalue="TestNG.SearchFunctionality" />
         <item itemvalue="TestNG.UserLoggedIn" />
+        <item itemvalue="TestNG.UserLoggedIn.validLogIn" />
       </list>
     </recent_temporary>
   </component>
@@ -65,22 +128,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1612785351649">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1612804340849">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612785351649" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1612785351649">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1612804340849" />
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom" timestamp="1612804588796">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612785351649" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1612785351648">
+    <state width="1237" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612804588796" />
+    <state width="1237" height="148" key="GridCell.Tab.0.center" timestamp="1612804588795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612785351648" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1612785351649">
+    <state width="1237" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612804588795" />
+    <state width="1237" height="148" key="GridCell.Tab.0.left" timestamp="1612804588795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612785351649" />
+    <state width="1237" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612804588795" />
+    <state width="1237" height="148" key="GridCell.Tab.0.right" timestamp="1612804588796">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612804588796" />
     <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1612785169759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
